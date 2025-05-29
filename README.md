@@ -1,4 +1,4 @@
-# Top-100-Basic-Linux-Shell-Script-Examples-for-Beginners
+# Top-100-Basic-Linux-Shell-Script-Examples
 
 @Day1. Hello, World!
    
