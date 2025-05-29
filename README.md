@@ -38,3 +38,16 @@ pwd
 
 📝 Displays the full path of the current directory.
 
+----------------------------------------------------
+
+@Day5. List Files in Current Directory
+
+#!/bin/bash
+
+ls -l
+
+📝 Lists all files with details.
+
+---------------------------------
+
+
