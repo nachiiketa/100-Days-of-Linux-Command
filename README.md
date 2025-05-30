@@ -54,8 +54,12 @@ ls -l
 #!/bin/bash
 
 read -p "Enter your name: " name
+
 echo "Welcome, $name!"
+
 📝 Prompts for a name and prints a welcome.
+
+-------------------------------------------
 
 
 
