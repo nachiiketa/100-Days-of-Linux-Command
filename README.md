@@ -97,6 +97,25 @@ fi
 
 ----------------------------
 
+@day9. Check if Directory Exists
+
+#!/bin/bash
+
+read -p "Enter directory: " dir
+
+if [ -d "$dir" ]; then
+
+  echo "Directory exists."
+  
+else
+
+  echo "Directory does not exist."
+  
+fi
+
+📝 Validates if a folder exists.
+
+---------------------------------
 
 
 
