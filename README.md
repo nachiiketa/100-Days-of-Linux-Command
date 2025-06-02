@@ -97,7 +97,9 @@ fi
 
 ----------------------------
 
-@day9. Check if Directory Exists
+@day9.
+
+Check if Directory Exists
 
 #!/bin/bash
 
