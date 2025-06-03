@@ -119,6 +119,19 @@ fi
 
 ---------------------------------
 
+@day10. Create a File
+
+#!/bin/bash
+
+read -p "Enter filename to create: " file
+
+touch "$file"
+
+echo "File '$file' created."
+
+📝 Creates an empty file.
+
+--------------------------
 
 
 
