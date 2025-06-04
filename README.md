@@ -134,5 +134,19 @@ echo "File '$file' created."
 
 --------------------------
 
+@day11.Rename a File
 
+#!/bin/bash
+
+read -p "Old filename: " old
+
+read -p "New filename: " new
+
+mv "$old" "$new"
+
+echo "File renamed."
+
+📝 Renames a file.
+
+---------------------------------
 
