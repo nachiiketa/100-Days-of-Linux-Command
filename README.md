@@ -134,7 +134,7 @@ echo "File '$file' created."
 
 --------------------------
 
-@day11.Rename a File
+@day11. Rename a File
 
 #!/bin/bash
 
