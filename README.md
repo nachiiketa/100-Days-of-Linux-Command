@@ -150,3 +150,16 @@ echo "File renamed."
 
 ---------------------------------
 
+@day12. 12. Delete a File
+bash
+CopyEdit
+#!/bin/bash
+read -p "Enter file to delete: " file
+rm "$file"
+echo "File deleted."
+
+📝 Deletes a file.
+
+-------------------------------------
+
+
