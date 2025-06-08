@@ -197,3 +197,20 @@ done
 📝 Prints numbers using a loop.
 
 ----------------------------------
+
+@day15. Use of While Loop
+
+i=1
+
+while [ $i -le 5 ]; do
+
+  echo "Count: $i"
+  
+  ((i++))
+  
+done
+
+📝 Repeats a block while a condition is true.
+
+--------------------------------------------------
+
