@@ -214,3 +214,15 @@ done
 
 --------------------------------------------------
 
+@day16. Basic Calculator
+bash
+CopyEdit
+#!/bin/bash
+read -p "Enter first number: " a
+read -p "Enter operator (+ - * /): " op
+read -p "Enter second number: " b
+echo "Result: $((a $op b))"
+
+📝 Simple arithmetic calculator.
+
+
