@@ -230,4 +230,12 @@ echo "Result: $((a $op b))"
 
 ---------------------------------
 
+@day17. Read and Print File Content
+
+#!/bin/bash
+read -p "Enter file to read: " file
+cat "$file"
+
+📝 Displays the content of a file.
+
 
