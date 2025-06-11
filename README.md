@@ -242,4 +242,15 @@ cat "$file"
 
 -------------------------------------
 
+@day18. Count Words in a File
+
+#!/bin/bash
+
+read -p "Enter file name: " file
+
+wc -w "$file"
+
+📝 Prints number of words.
+
+---------------------------
 
