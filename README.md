@@ -254,3 +254,13 @@ wc -w "$file"
 
 ---------------------------
 
+@day19.  Find Lines Matching Pattern
+bash
+CopyEdit
+#!/bin/bash
+read -p "Enter filename: " file
+read -p "Enter pattern to search: " pattern
+grep "$pattern" "$file"
+
+📝 Finds matching lines using grep.
+
