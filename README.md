@@ -268,3 +268,32 @@ grep "$pattern" "$file"
 
 -------------------------------------
 
+@day20.  Simple Menu System
+
+#!/bin/bash
+
+echo "1. Show Date"
+
+echo "2. Show Uptime"
+
+echo "3. Show Current Users"
+
+read -p "Choose an option: " choice
+
+case $choice in
+
+  1) date ;;
+     
+  3) uptime ;;
+     
+  5) who ;;
+     
+  *) echo "Invalid option." ;;
+  
+esac
+
+📝 Provides a simple text menu with case.
+
+------------------------------------------
+
+
