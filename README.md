@@ -310,4 +310,18 @@ echo "Directory '$dir' created."
 
 -------------------------
 
+@day22.  Delete a Directory
+
+#!/bin/bash
+
+read -p "Enter directory name to delete: " dir
+
+rmdir "$dir"
+
+echo "Directory '$dir' deleted."
+
+📝 Deletes an empty directory.
+
+---------------------------------
+
 
