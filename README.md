@@ -325,13 +325,17 @@ echo "Directory '$dir' deleted."
 ---------------------------------
 
 @day23.  Loop Through Files in Directory
-bash
-CopyEdit
+
 #!/bin/bash
+
 for file in *; do
+
   echo "File: $file"
+  
 done
 
 📝 Loops through and prints all files.
+
+--------------------------------------
 
 
