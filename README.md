@@ -338,4 +338,24 @@ done
 
 --------------------------------------
 
+@day24. Check User Login
+
+#!/bin/bash
+
+read -p "Enter username: " user
+
+if who | grep -w "$user" > /dev/null; then
+
+  echo "User $user is logged in."
+  
+else
+
+  echo "User $user is not logged in."
+  
+fi
+
+📝 Checks if a user is currently logged in.
+
+-------------------------------------------
+
 
