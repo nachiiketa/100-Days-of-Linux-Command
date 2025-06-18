@@ -358,4 +358,14 @@ fi
 
 -------------------------------------------
 
+day25. Show System Uptime
+
+#!/bin/bash
+
+uptime
+
+📝 Displays how long the system has been running.
+
+-------------------------------------------------
+
 
