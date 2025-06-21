@@ -405,11 +405,14 @@ echo "Time's up!"
 ---------------------------------
 
 @day28.  Convert Lowercase to Uppercase
-bash
-CopyEdit
+
 #!/bin/bash
+
 read -p "Enter text: " text
+
 echo "${text^^}"
 
 📝 Converts user input to uppercase.
+
+------------------------------------
 
