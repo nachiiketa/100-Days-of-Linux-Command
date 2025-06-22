@@ -416,3 +416,11 @@ echo "${text^^}"
 
 ------------------------------------
 
+@day29. 29. Convert Uppercase to Lowercase
+bash
+CopyEdit
+#!/bin/bash
+read -p "Enter text: " text
+echo "${text,,}"
+
+📝 Converts user input to lowercase.
