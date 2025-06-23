@@ -429,10 +429,13 @@ echo "${text,,}"
 ------------------------------------
 
 @day30.  Find File by Name
-bash
-CopyEdit
+
 #!/bin/bash
+
 read -p "Enter filename to search: " name
+
 find . -name "$name"
 
 📝 Searches for files recursively.
+
+------------------------------------
