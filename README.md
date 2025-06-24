@@ -439,3 +439,12 @@ find . -name "$name"
 📝 Searches for files recursively.
 
 ------------------------------------
+
+@day31. Disk Usage of Directory
+bash
+CopyEdit
+#!/bin/bash
+read -p "Enter directory path: " dir
+du -sh "$dir"
+
+📝 Shows space used by a directory.
