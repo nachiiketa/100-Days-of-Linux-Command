@@ -452,7 +452,7 @@ du -sh "$dir"
 
 -----------------------------------
 
-@day32. 32. Get IP Address
+@day32. Get IP Address
 
 #!/bin/bash
 
