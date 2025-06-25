@@ -452,4 +452,13 @@ du -sh "$dir"
 
 -----------------------------------
 
+@day32. 32. Get IP Address
+
+#!/bin/bash
+
+hostname -I
+
+📝 Displays system's IP address.
+
+--------------------------------
 
