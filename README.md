@@ -462,10 +462,12 @@ hostname -I
 
 --------------------------------
 
-@day33.  Show Currently Running Processes
-bash
-CopyEdit
+@day33. Show Currently Running Processes
+
 #!/bin/bash
+
 ps aux
 
 📝 Displays all running processes.
+
+--------------------------------------
