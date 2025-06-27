@@ -471,3 +471,15 @@ ps aux
 📝 Displays all running processes.
 
 --------------------------------------
+
+@day34. Kill a Process by Name
+
+#!/bin/bash
+
+read -p "Enter process name to kill: " pname
+
+pkill "$pname"
+
+📝 Terminates all processes matching the name.
+
+-----------------------------------------------
