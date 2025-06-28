@@ -485,11 +485,15 @@ pkill "$pname"
 ----------------------------------------------
 
 @day35. Backup a File
-bash
-CopyEdit
+
 #!/bin/bash
+
 read -p "Enter filename to backup: " file
+
 cp "$file" "$file.bak"
+
 echo "Backup created as $file.bak"
 
 📝 Creates a .bak copy of a file.
+
+---------------------------------------
