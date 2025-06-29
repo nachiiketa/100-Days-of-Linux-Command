@@ -499,10 +499,15 @@ echo "Backup created as $file.bak"
 ---------------------------------------
 
 @day36. Simple Login Prompt
-bash
-CopyEdit
+
 #!/bin/bash
+
 read -p "Username: " user
+
 read -sp "Password: " pass
+
 echo -e "\nWelcome, $user!"
+
 📝 Simulates a login prompt (no password checking).
+
+----------------------------------------------------
