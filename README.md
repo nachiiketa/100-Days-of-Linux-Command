@@ -511,3 +511,10 @@ echo -e "\nWelcome, $user!"
 📝 Simulates a login prompt (no password checking).
 
 ----------------------------------------------------
+
+@day37. Display Memory Usage
+bash
+CopyEdit
+#!/bin/bash
+free -h
+📝 Shows system memory usage in human-readable format.
