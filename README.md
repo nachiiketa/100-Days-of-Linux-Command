@@ -521,3 +521,13 @@ free -h
 📝 Shows system memory usage in human-readable format.
 
 ------------------------------------------------------
+
+@day38.  Display Disk Usage
+
+#!/bin/bash
+
+df -h
+
+📝 Displays disk usage of all mounted partitions.
+
+-------------------------------------------------
