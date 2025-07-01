@@ -533,5 +533,15 @@ df -h
 --------------------------------------------------
 
 @day39. Append Text to a File
-bash
-CopyEdit
+
+#!/bin/bash
+
+read -p "Enter file to append to: " file
+
+read -p "Enter text: " text
+
+echo "$text" >> "$file"
+
+echo "Text appended to $file."
+
+📝 Appends user input to a file.
