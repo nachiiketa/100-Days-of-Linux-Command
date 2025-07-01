@@ -531,3 +531,7 @@ df -h
 📝 Displays disk usage of all mounted partitions.
 
 --------------------------------------------------
+
+@day39. Append Text to a File
+bash
+CopyEdit
