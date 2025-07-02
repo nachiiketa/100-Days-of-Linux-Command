@@ -551,10 +551,19 @@ echo "Text appended to $file."
 @day40. Check If File Is Empty
 
 #!/bin/bash
+
 read -p "Enter file name: " file
+
 if [ ! -s "$file" ]; then
+
 echo "File is empty."
+
 else
+
 echo "File is not empty."
+
 fi
+
 📝 Checks if a file has content or not.
+
+----------------------------------------
