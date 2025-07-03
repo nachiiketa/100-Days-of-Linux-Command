@@ -569,10 +569,14 @@ fi
 ----------------------------------------
 
 @day41. Reverse a String
-bash
-CopyEdit
+
 #!/bin/bash
+
 read -p "Enter a string: " str
+
 echo "$str" | rev
 
 📝 Reverses the characters in the string.
+
+------------------------------------------
+
