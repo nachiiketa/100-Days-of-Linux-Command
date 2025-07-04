@@ -580,3 +580,4 @@ echo "$str" | rev
 
 ------------------------------------------
 
+@day42. Check String is Palindrome
