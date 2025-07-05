@@ -605,8 +605,12 @@ fi
 @day43. Count Number of Lines in a File
 
 #!/bin/bash
+
 read -p "Enter filename: " file
+
 wc -l < "$file"
 
 📝 Counts total lines in the file.
+
+----------------------------------
 
