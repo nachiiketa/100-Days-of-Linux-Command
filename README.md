@@ -619,11 +619,18 @@ wc -l < "$file"
 #!/bin/bash
 
 read -p "Enter something: " input
+
 if [[ "$input" =~ ^[0-9]+$ ]]; then
+
   echo "It's a number."
+  
 else
+
   echo "Not a number."
+  
 fi
 
 📝 Uses regex to check numeric input.
+
+--------------------------------------
 
