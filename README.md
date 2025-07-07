@@ -634,3 +634,8 @@ fi
 
 --------------------------------------
 
+@day45.Print All Environment Variables
+
+#!/bin/bash
+printenv
+📝 Shows current environment variables.
