@@ -647,6 +647,11 @@ printenv
 @day46. Set and Use a Variable
 
 #!/bin/bash
+
 greeting="Hello from Linux!"
+
 echo "$greeting"
+
 📝 Demonstrates defining and using a shell variable.
+
+------
