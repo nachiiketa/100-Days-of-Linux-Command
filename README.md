@@ -642,7 +642,7 @@ printenv
 
 📝 Shows current environment variables.
 
----------
+---------------------------------------
 
 @day46. Set and Use a Variable
 
@@ -654,4 +654,16 @@ echo "$greeting"
 
 📝 Demonstrates defining and using a shell variable.
 
-------
+----------------------------------------------------
+
+@day47.  Use of Arrays
+
+#!/bin/bash
+fruits=("apple" "banana" "cherry")
+echo "First fruit: ${fruits[0]}"
+
+echo "All fruits: ${fruits[@]}"
+
+📝 Works with array elements.
+
+---------------------------------
