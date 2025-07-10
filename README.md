@@ -669,3 +669,10 @@ echo "All fruits: ${fruits[@]}"
 📝 Works with array elements.
 
 ---------------------------------
+@day48. Loop Over Array
+
+#!/bin/bash
+
+colors=("red" "green" "blue")
+
+for color in "${colors[@]}"; do
