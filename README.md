@@ -676,3 +676,7 @@ echo "All fruits: ${fruits[@]}"
 colors=("red" "green" "blue")
 
 for color in "${colors[@]}"; do
+
+echo "Color: $color"
+done
+📝 Prints all elements of an array.
