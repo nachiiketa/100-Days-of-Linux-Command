@@ -669,6 +669,7 @@ echo "All fruits: ${fruits[@]}"
 📝 Works with array elements.
 
 ---------------------------------
+
 @day48. Loop Over Array
 
 #!/bin/bash
@@ -678,5 +679,18 @@ colors=("red" "green" "blue")
 for color in "${colors[@]}"; do
 
 echo "Color: $color"
+
 done
+
 📝 Prints all elements of an array.
+
+-------------------------------------
+
+@day49.  Check File Permissions
+
+#!/bin/bash
+
+read -p "Enter filename: " file
+ls -l "$file"
+
+📝 Lists file with its permission details.
