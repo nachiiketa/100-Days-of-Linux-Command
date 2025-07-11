@@ -691,6 +691,9 @@ done
 #!/bin/bash
 
 read -p "Enter filename: " file
+
 ls -l "$file"
 
 📝 Lists file with its permission details.
+
+---------------------------------------------
