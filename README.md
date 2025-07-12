@@ -697,3 +697,11 @@ ls -l "$file"
 📝 Lists file with its permission details.
 
 ---------------------------------------------
+
+@day50. Check Internet Connection
+
+#!/bin/bash
+
+ping -c 1 google.com &> /dev/null
+
+if [ $? -eq 0 ]; then
