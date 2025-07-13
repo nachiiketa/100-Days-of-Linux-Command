@@ -718,4 +718,15 @@ fi
 
 ---------------------------------------
 
-@day51.
+@day51. Check if Package is Installed (Debian-based)
+
+#!/bin/bash
+
+read -p "Enter package name: " pkg
+
+dpkg -l | grep "$pkg"
+
+📝 Lists installed packages and filters by name.
+
+-----------------------------------------------------
+
