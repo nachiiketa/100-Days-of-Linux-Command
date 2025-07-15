@@ -730,3 +730,10 @@ dpkg -l | grep "$pkg"
 
 -----------------------------------------------------
 
+@day52. Display Number of Users Logged In
+
+#!/bin/bash
+who | wc -l
+
+📝 Counts active user sessions.
+
