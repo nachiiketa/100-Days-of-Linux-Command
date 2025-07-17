@@ -739,7 +739,7 @@ who | wc -l
 📝 Counts active user sessions.
 
 --------------------------------------
-Send Message to Another Logged-in User
+@day53. Send Message to Another Logged-in User
 
 #!/bin/bash
 
@@ -747,7 +747,7 @@ read -p "Enter username: " user
 
 read -p "Enter your message: " msg
 
-@day53. 
+echo "$msg" | write "$user"
 
+📝 Sends message to another terminal user (if write is enabled).
 
-_
