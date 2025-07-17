@@ -739,8 +739,15 @@ who | wc -l
 📝 Counts active user sessions.
 
 --------------------------------------
+Send Message to Another Logged-in User
 
-@day52
+#!/bin/bash
+
+read -p "Enter username: " user
+
+read -p "Enter your message: " msg
+
+@day53. 
 
 
 _
