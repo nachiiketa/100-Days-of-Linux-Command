@@ -739,6 +739,7 @@ who | wc -l
 📝 Counts active user sessions.
 
 --------------------------------------
+
 @day53. Send Message to Another Logged-in User
 
 #!/bin/bash
@@ -751,3 +752,4 @@ echo "$msg" | write "$user"
 
 📝 Sends message to another terminal user (if write is enabled).
 
+--------------------------------------------------------------------
