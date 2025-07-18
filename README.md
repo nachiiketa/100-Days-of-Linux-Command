@@ -753,3 +753,17 @@ echo "$msg" | write "$user"
 📝 Sends message to another terminal user (if write is enabled).
 
 --------------------------------------------------------------------
+
+@day54. Change File Permissions
+
+#!/bin/bash
+
+read -p "Enter filename: " file
+
+chmod 755 "$file"
+
+echo "Permissions changed to 755."
+
+📝 Makes a script executable by all users.
+
+-------------------------------------------
