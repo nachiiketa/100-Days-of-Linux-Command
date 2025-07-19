@@ -766,4 +766,14 @@ echo "Permissions changed to 755."
 
 📝 Makes a script executable by all users.
 
--------------------------------------------
+------------------------------------------------
+
+@day55. Create a Simple Log File
+
+#!/bin/bash
+
+echo "Log Entry at: $(date)" >> script.log
+
+📝 Appends a timestamped line to a log file.
+
+---------------------------------------------
