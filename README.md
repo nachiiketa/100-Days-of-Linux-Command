@@ -777,3 +777,8 @@ echo "Log Entry at: $(date)" >> script.log
 📝 Appends a timestamped line to a log file.
 
 ---------------------------------------------
+
+@day56. Clear the Terminal Screen
+
+#!/bin/bash
+clear
