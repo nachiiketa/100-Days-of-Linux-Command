@@ -781,4 +781,9 @@ echo "Log Entry at: $(date)" >> script.log
 @day56. Clear the Terminal Screen
 
 #!/bin/bash
+
 clear
+
+📝 Clears the terminal window.
+
+--------------------------------
