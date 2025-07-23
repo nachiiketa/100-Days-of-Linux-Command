@@ -827,7 +827,10 @@ for (( i=1; i<=n; i++ )); do
   fact=$((fact * i))
   
 done
+
 echo "Factorial is $fact"
 
 📝 Computes factorial using a loop.
+
+------------------------------------
 
