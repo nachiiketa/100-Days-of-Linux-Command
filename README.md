@@ -834,4 +834,12 @@ echo "Factorial is $fact"
 
 ------------------------------------
 
-@day59. 
+@day59. Generate Random Number
+
+#!/bin/bash
+
+echo "Random number: $RANDOM"
+
+📝 Generates a random number using shell built-in.
+
+--------------------------------------------------
