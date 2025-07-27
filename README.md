@@ -846,3 +846,21 @@ echo "Random number: $RANDOM"
 
 @day60.  Check Disk Space Usage of Root Partition
 
+#!/bin/bash
+
+read -p "Enter a number: " n
+
+sum=0
+
+for (( i=1; i<=n; i++ )); do
+
+  sum=$((sum + i))
+  
+done
+
+echo "Sum = $sum"
+
+📝 Adds numbers from 1 to n.
+
+----------------------------
+
