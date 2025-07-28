@@ -864,4 +864,23 @@ echo "Sum = $sum"
 
 ----------------------------
 
-@day61. 
+@day61.  Sum of N Natural Numbers
+
+#!/bin/bash
+
+read -p "Enter a number: " n
+
+sum=0
+
+for (( i=1; i<=n; i++ )); do
+
+  sum=$((sum + i))
+  
+done
+
+echo "Sum = $sum"
+
+📝 Adds numbers from 1 to n.
+
+-----------------------------
+
