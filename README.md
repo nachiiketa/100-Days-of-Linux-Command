@@ -885,3 +885,17 @@ echo "Sum = $sum"
 -----------------------------
 
 @day62.Print Multiplication Table
+
+#!/bin/bash
+
+read -p "Enter a number: " n
+
+for i in {1..10}; do
+
+echo "$n x $i = $((n * i))"
+
+done
+
+📝 Prints a 10-row multiplication table.
+
+----------------------------------------------
