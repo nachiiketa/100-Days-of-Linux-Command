@@ -922,3 +922,25 @@ fi
 ------------------------------------------------------------------
 
 @day64.  Find Largest of Three Numbers
+
+#!/bin/bash
+
+read -p "Enter 3 numbers: " a b c
+
+if [ $a -ge $b ] && [ $a -ge $c ]; then
+
+  echo "$a is largest"
+  
+elif [ $b -ge $a ] && [ $b -ge $c ]; then
+
+  echo "$b is largest"
+  
+else
+
+  echo "$c is largest"
+  
+fi
+
+📝 Compares three values.
+
+---------------------------------------
