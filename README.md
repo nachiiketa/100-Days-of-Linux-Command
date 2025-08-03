@@ -944,3 +944,5 @@ fi
 📝 Compares three values.
 
 ---------------------------------------
+
+@day65.Simple Number Guessing Game
