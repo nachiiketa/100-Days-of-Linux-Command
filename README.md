@@ -946,3 +946,16 @@ fi
 ---------------------------------------
 
 @day65.Simple Number Guessing Game
+
+#!/bin/bash
+secret=$((RANDOM % 10 + 1))
+read -p "Guess a number (1-10): " guess
+if [ "$guess" -eq "$secret" ]; then
+  echo "Correct!"
+else
+  echo "Wrong. The number was $secret"
+fi
+
+📝 Fun use of random and conditional logic.
+
+-------------------------------------------
