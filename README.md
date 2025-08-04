@@ -959,3 +959,6 @@ fi
 📝 Fun use of random and conditional logic.
 
 -------------------------------------------
+
+@day66.  Check If Port Is Open
+
