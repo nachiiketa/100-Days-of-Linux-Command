@@ -962,3 +962,11 @@ fi
 
 @day66.  Check If Port Is Open
 
+#!/bin/bash
+read -p "Enter hostname: " host
+read -p "Enter port: " port
+nc -zv "$host" "$port"
+
+📝 Checks if a port is open using netcat.
+
+
