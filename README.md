@@ -970,6 +970,14 @@ nc -zv "$host" "$port"
 📝 Checks if a port is open using netcat.
 
 
----------
+-------------
 
 @day67.Run Script at Startup (Cron @reboot Example)
+
+#!/bin/bash
+
+(crontab -l ; echo "@reboot /path/to/your/script.sh") | crontab -
+
+📝 Schedules a script to run when system starts.
+
+--------------------------------
