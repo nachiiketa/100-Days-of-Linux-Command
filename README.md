@@ -970,3 +970,6 @@ nc -zv "$host" "$port"
 📝 Checks if a port is open using netcat.
 
 
+---------
+
+@day67.Run Script at Startup (Cron @reboot Example)
