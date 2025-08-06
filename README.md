@@ -985,3 +985,12 @@ nc -zv "$host" "$port"
 
 @day68. Shutdown System After Delay
 
+#!/bin/bash
+
+read -p "Shutdown after how many minutes? " min
+
+sudo shutdown -h +$min
+
+📝 Schedules a shutdown using shutdown command.
+
+------------------------------------------------
