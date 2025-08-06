@@ -970,7 +970,7 @@ nc -zv "$host" "$port"
 📝 Checks if a port is open using netcat.
 
 
--------------
+-------------------------------------------
 
 @day67.Run Script at Startup (Cron @reboot Example)
 
@@ -978,6 +978,10 @@ nc -zv "$host" "$port"
 
 (crontab -l ; echo "@reboot /path/to/your/script.sh") | crontab -
 
+
 📝 Schedules a script to run when system starts.
 
---------------------------------
+----------------------------------------------------------------
+
+@day68. Shutdown System After Delay
+
