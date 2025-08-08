@@ -993,6 +993,6 @@ sudo shutdown -h +$min
 
 📝 Schedules a shutdown using shutdown command.
 
-------------------------------------------------
+-------------------------------------------------
 
 @day69.
