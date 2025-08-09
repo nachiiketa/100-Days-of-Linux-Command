@@ -996,3 +996,17 @@ sudo shutdown -h +$min
 -------------------------------------------------
 
 @day69. Create Multiple Files
+
+#!/bin/bash
+
+for i in {1..5}; do
+
+  touch "file$i.txt"
+  
+done
+
+📝 Creates 5 empty files.
+
+-------------------------
+
+
