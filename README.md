@@ -1011,5 +1011,16 @@ done
 
 @day70. Monitor File Changes
 
+#!/bin/bash
+
+read -p "Enter filename: " file
+
+inotifywait -m "$file"
+
+📝 Watches file changes in real-time (requires inotify-tools).
+
+--------------------------------------------------------------
+
+
 
 
