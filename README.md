@@ -1023,6 +1023,26 @@ inotifywait -m "$file"
 
 @day71. Simple Progress Bar
 
+#!/bin/bash
+
+echo -n "Progress: "
+
+for i in {1..20}; do
+
+  echo -n "#"
+  
+  sleep 0.1
+  
+done
+
+echo " Done!"
+
+📝 Shows a loading bar animation.
+
+----------------------------------
+
+
+
 
 
 
