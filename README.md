@@ -9,7 +9,7 @@ echo "Hello, World!"
 
 📝 Prints a basic greeting message.
 
------------------------------
+----------------------------------
 
 @Day2:Display Current Date
 
