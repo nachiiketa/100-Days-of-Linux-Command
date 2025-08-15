@@ -78,6 +78,7 @@ echo "Sum is: $sum"
 
 ---------------------------
 
+
 @day8. Check if File Exists
 
 #!/bin/bash
