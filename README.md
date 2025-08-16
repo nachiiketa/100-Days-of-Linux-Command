@@ -1044,7 +1044,19 @@ echo " Done!"
 
 
 
-@day72.
+@day72. Backup a Directory
+
+#!/bin/bash
+
+read -p "Enter directory to backup: " dir
+
+tar -czf backup.tar.gz "$dir"
+
+echo "Backup saved as backup.tar.gz"
+
+📝 Creates a compressed backup file.
+
+-----------------------------------
 
 
 
