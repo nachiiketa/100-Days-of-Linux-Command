@@ -19,7 +19,7 @@ echo "Current date and time: $(date)"
 
 📝 Uses the date command to show current system time.
 
---------------------------------------
+------------------------------------------
 
 @Day3. Display Calendar
 
