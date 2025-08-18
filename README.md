@@ -1061,6 +1061,13 @@ echo "Backup saved as backup.tar.gz"
 @day73. Count Specific Word in File
 
 
+#!/bin/bash
+read -p "Enter filename: " file
+read -p "Enter word to count: " word
+grep -o "$word" "$file" | wc -l
+
+📝 Counts how often a word appears.
+
 
 
 
