@@ -1068,6 +1068,9 @@ grep -o "$word" "$file" | wc -l
 
 📝 Counts how often a word appears.
 
+------------------------------------
+
+@day74. Rename All .txt Files to .bak
 
 
 
