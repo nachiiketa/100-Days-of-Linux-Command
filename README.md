@@ -1072,6 +1072,19 @@ grep -o "$word" "$file" | wc -l
 
 @day74. Rename All .txt Files to .bak
 
+#!/bin/bash
+
+for file in *.txt; do
+
+  mv "$file" "${file%.txt}.bak"
+  
+done
+
+📝 Batch renaming using parameter expansion.
+
+---------------------------------------------
+
+
 
 
 
