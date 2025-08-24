@@ -1092,5 +1092,19 @@ find . -type f -mtime -1
 
 📝 Lists files modified in the last 24 hours.
 
-_____________________________________________
+---------------------------------------------
+
+@day76.  Count Characters in a String
+
+#!/bin/bash
+
+read -p "Enter a string: " str
+
+echo "Length: ${#str}"
+
+📝 Uses parameter expansion to get string length.
+
+--------------------------------------------------
+
+@day77. 
 
