@@ -133,7 +133,7 @@ echo "File '$file' created."
 
 📝 Creates an empty file.
 
---------------------------
+------------------------------
 
 @day11. Rename a File
 
