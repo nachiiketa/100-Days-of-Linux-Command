@@ -1108,3 +1108,17 @@ echo "Length: ${#str}"
 
 @day77. Run a Command Every 5 Seconds
 
+
+#!/bin/bash
+
+while true; do
+
+date
+
+sleep 5
+
+done
+
+📝 Loop with delay – useful for monitoring.
+
+-------------------------------------------
