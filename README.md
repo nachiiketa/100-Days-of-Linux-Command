@@ -1126,6 +1126,7 @@ done
 @day78.  Monitor CPU Usage
 
 #!/bin/bash
+
 top -bn1 | grep "Cpu(s)"
 
 📝 Extracts CPU usage info using top.
