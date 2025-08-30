@@ -1131,4 +1131,6 @@ top -bn1 | grep "Cpu(s)"
 
 📝 Extracts CPU usage info using top.
 
+-------------------------------------
+
 
