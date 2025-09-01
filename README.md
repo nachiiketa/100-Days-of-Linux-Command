@@ -1135,6 +1135,12 @@ top -bn1 | grep "Cpu(s)"
 
 @day79. Monitor Memory Usage (Real-Time)
 
+#!/bin/bash
+
+watch free -m
+
+📝 Refreshes memory info every 2 seconds.
+
 
 
 
