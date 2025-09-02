@@ -1141,6 +1141,7 @@ watch free -m
 
 📝 Refreshes memory info every 2 seconds.
 
+-----------------------------------------
 
 
 
