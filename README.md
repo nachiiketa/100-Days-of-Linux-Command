@@ -1145,8 +1145,16 @@ watch free -m
 
 @day80.Simple Alarm Clock
 
+#!/bin/bash
+read -p "Set alarm (seconds): " sec
+sleep "$sec"
+echo -e "\aTime's up!"
+
+📝 Plays a beep sound after delay
+
 
 ----------------------
+
 
 
 
