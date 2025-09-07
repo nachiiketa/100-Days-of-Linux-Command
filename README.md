@@ -1158,10 +1158,16 @@ echo -e "\aTime's up!"
 -----------------------------------
 @day81. Check Service Status
 
+#!/bin/bash
 
+read -p "Enter service name: " svc
 
+systemctl status "$svc"
+
+📝 Shows status of a systemd-managed service.
 
 -----------------------------------
+
 
 
 
