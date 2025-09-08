@@ -1169,6 +1169,16 @@ systemctl status "$svc"
 -----------------------------------
 @day82. Start a Service
 
+#!/bin/bash
+
+read -p "Enter service name: " svc
+
+sudo systemctl start "$svc"
+
+echo "$svc started."
+
+📝 Starts a system service (requires sudo).
+
 
 
 
