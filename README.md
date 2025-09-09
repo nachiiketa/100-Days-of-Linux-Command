@@ -1179,6 +1179,8 @@ echo "$svc started."
 
 📝 Starts a system service (requires sudo).
 
+-------------------------------------------
+
 
 
 
