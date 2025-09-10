@@ -1167,6 +1167,7 @@ systemctl status "$svc"
 📝 Shows status of a systemd-managed service.
 
 -----------------------------------
+
 @day82. Start a Service
 
 #!/bin/bash
@@ -1182,6 +1183,7 @@ echo "$svc started."
 -------------------------------------------
 
 @day83.
+
 
 
 -------------------------------------------
