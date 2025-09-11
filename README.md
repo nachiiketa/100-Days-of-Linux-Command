@@ -1184,6 +1184,14 @@ echo "$svc started."
 
 @day83. Stop a Service
 
+#!/bin/bash
+
+read -p "Enter service name: " svc
+
+sudo systemctl stop "$svc"
+
+echo "$svc stopped."
+
 
 
 -------------------------------------------
