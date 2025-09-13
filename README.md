@@ -1192,9 +1192,10 @@ sudo systemctl stop "$svc"
 
 echo "$svc stopped."
 
-
+📝 Stops a running service.
 
 -------------------------------------------
+
 
 
 
