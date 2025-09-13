@@ -1195,9 +1195,19 @@ echo "$svc stopped."
 📝 Stops a running service.
 
 -------------------------------------------
+@day84. Restart a Service
 
+#!/bin/bash
 
+read -p "Enter service name: " svc
 
+sudo systemctl restart "$svc"
+
+echo "$svc restarted."
+
+📝 Restarts a service quickly.
+
+-------------------------------
 
 
 
