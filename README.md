@@ -1211,6 +1211,12 @@ echo "$svc restarted."
 
 @day85.Get Current Date and Time
 
+#!/bin/bash
+
+date "+%Y-%m-%d %H:%M:%S"
+
+📝 Formats the current date and time.
+
 
 
 
