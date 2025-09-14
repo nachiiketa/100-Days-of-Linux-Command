@@ -1209,6 +1209,9 @@ echo "$svc restarted."
 
 -------------------------------
 
+@day85.Get Current Date and Time
+
+
 
 
 
