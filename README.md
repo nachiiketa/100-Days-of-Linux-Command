@@ -1217,9 +1217,7 @@ date "+%Y-%m-%d %H:%M:%S"
 
 📝 Formats the current date and time.
 
-
-
-
+-------------------------------------
 
 
 
