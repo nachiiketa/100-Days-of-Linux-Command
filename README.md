@@ -1222,5 +1222,11 @@ date "+%Y-%m-%d %H:%M:%S"
 
 @day86. Display Calendar
 
-------------
+#!/bin/bash
+
+cal
+
+📝 Shows the current month calendar.
+
+-------------
 
