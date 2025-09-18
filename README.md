@@ -1226,6 +1226,7 @@ date "+%Y-%m-%d %H:%M:%S"
 
 cal
 
+
 📝 Shows the current month calendar.
 
 ------------------------------------
