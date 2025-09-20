@@ -1232,5 +1232,13 @@ cal
 ------------------------------------
 @day87. Extract .tar.gz File
 
+#!/bin/bash
+
+read -p "Enter archive name: " archive
+
+tar -xzf "$archive"
+
+📝 Extracts a tar.gz compressed file.
 
 -------------------------------------
+
