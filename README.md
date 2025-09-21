@@ -1,4 +1,4 @@
-u# Top-100-Basic-Linux-Shell-Script-Examples
+# Top-100-Basic-Linux-Shell-Script-Examples
 --------------------------------------------
 
 @Day1. Hello, World!
@@ -1243,3 +1243,13 @@ tar -xzf "$archive"
 -------------------------------------
 
 @day88. Create User (Requires sudo)
+
+#!/bin/bash
+
+read -p "Enter new username: " user
+
+sudo adduser "$user"
+
+📝 Adds a new system user.
+
+--------------------------
