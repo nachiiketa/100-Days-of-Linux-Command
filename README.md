@@ -1242,3 +1242,4 @@ tar -xzf "$archive"
 
 -------------------------------------
 
+@day88. Create User (Requires sudo)
