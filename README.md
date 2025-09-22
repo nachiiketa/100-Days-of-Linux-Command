@@ -1251,5 +1251,6 @@ read -p "Enter new username: " user
 sudo adduser "$user"
 
 📝 Adds a new system user.
-
 --------------------------
+
+@day89.Delete User (Requires sudo)
