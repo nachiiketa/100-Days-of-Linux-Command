@@ -1254,3 +1254,14 @@ sudo adduser "$user"
 --------------------------
 
 @day89.Delete User (Requires sudo)
+
+#!/bin/bash
+
+read -p "Enter username to delete: " user
+
+sudo deluser "$user"
+
+📝 Removes a user from the system.
+-----------------------------------
+
+
